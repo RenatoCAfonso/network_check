@@ -34,8 +34,8 @@ def realizar_de_para(malha_antiga, malha_atual):
 st.title("Aplicativo De-Para de Malhas")
 
 # Upload dos arquivos
-malha_antiga = st.file_uploader("Carregar Malha Antiga (Excel)", type=["xlsx", "xls"])
-malha_atual = st.file_uploader("Carregar Malha Atual (Excel)", type=["xlsx", "xls"])
+malha_antiga = st.file_uploader("Carregar Malha Antiga (Excel com colunas ORIGEM, DESTINO_FINAL e PROXIMO_STEP - em caixa alta)", type=["xlsx", "xls"])
+malha_atual = st.file_uploader("Carregar Malha Atual (Excel com colunas ORIGEM, DESTINO_FINAL e PROXIMO_STEP - em caixa alta)", type=["xlsx", "xls"])
 
 # Botão para realizar o de-para
 if st.button("Realizar De-Para"):
@@ -50,4 +50,6 @@ if st.button("Realizar De-Para"):
 
     else:
         st.warning("Por favor, carregue ambos os arquivos para realizar o De-Para.")
+
+
 
