@@ -27,7 +27,7 @@ def realizar_de_para(malha_antiga, malha_atual):
         return diff_filtrado[['ORIGEM', 'DESTINO_FINAL', 'PROXIMO_STEP', '_Malha']]
 
     except Exception as e:
-        return f"Não foi possível checar as informações - verifique o formato do arquivo.\n}"
+        return f"Não foi possível checar as informações - verifique o formato do arquivo.\n"
 
 
 # Interface do aplicativo
