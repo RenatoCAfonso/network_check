@@ -49,7 +49,7 @@ if st.button("Realizar De-Para"):
         st.write(resultado_de_para)
 
     else:
-        st.warning("Por favor, carregue ambos os arquivos para realizar o De-Para.")
+        st.warning("Por favor, carregue os arquivos para realizar o De-Para.")
 
 
 
